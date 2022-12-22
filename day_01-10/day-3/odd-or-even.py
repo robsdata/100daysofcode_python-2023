@@ -6,9 +6,9 @@
 
 
 # Print welcoming message
-
 user_number = int(input(("Please enter the number to evaluate: ---> ")))
 
+#Evaluate if the number is odd or even using % and return answer
 if user_number % 2 == 0:
     print(f"The number {user_number} is even")
 else: 
