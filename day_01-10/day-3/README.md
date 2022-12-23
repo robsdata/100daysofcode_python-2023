@@ -13,4 +13,5 @@ Basic input and math
 
 ## Project flowchart
 
-![project-flowchart](/images/treasure-island-flowchart.png)
+![treasure-island-flowchart](https://user-images.githubusercontent.com/62405434/209378677-c49996da-1256-4892-a2ec-7b6a70a12576.png)
+
