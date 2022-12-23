@@ -8,3 +8,6 @@ Randomisation and Python Lists
 2. Banker Roulette
 3. Treasure Map
 4. Rock, Paper Scissors
+
+## Map
+![treasure-map](./images/map.png)
