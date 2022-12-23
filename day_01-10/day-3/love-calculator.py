@@ -23,7 +23,7 @@ love_digit = ""
 name_person1 = input("Please enter your name --->").lower()
 name_person2 = input("Please enter your SO's name --->").lower()
 
-# Then check for the number of times the letters in the word LOVE occurs. 
+# Then check for the number of times the letters in the word TRUE LOVE occurs. 
 
 t_true_count = name_person1.count("t") + name_person2.count("t")
 r_true_count = name_person1.count("r") + name_person2.count("r")
@@ -37,7 +37,6 @@ e_love_count = name_person1.count("e") + name_person2.count("e")
 
 true_total_count = t_true_count + r_true_count + u_true_count + e_true_count
 love_total_count = l_love_count + o_love_count + v_love_count + e_love_count
-
 # print("TRUE -----------------")
 # print(t_true_count)
 # print(r_true_count)
@@ -53,12 +52,13 @@ love_total_count = l_love_count + o_love_count + v_love_count + e_love_count
 # print(love_total_count)
 
 
+
 # Then combine these numbers to make a 2 digit number.
 love_digit = str(true_total_count) + str(love_total_count)
 love_digit = int(love_digit)
-
 # print(type(love_digit))
 # print(love_digit)
+
 
 
 # For Love Scores less than 10 or greater than 90, the message should be:
