@@ -23,20 +23,25 @@ love_digit = ""
 name_person1 = input("Please enter your name --->").lower()
 name_person2 = input("Please enter your SO's name --->").lower()
 
+# Combining strings
+
+combined_name = name_person1 + name_person2
+
 # Then check for the number of times the letters in the word TRUE LOVE occurs. 
 
-t_true_count = name_person1.count("t") + name_person2.count("t")
-r_true_count = name_person1.count("r") + name_person2.count("r")
-u_true_count = name_person1.count("u") + name_person2.count("u")
-e_true_count = name_person1.count("e") + name_person2.count("e")
+t_true_count = combined_name.count("t")
+r_true_count = combined_name.count("r")
+u_true_count = combined_name.count("u")
+e_true_count = combined_name.count("e")
 
-l_love_count = name_person1.count("l") + name_person2.count("l")
-o_love_count = name_person1.count("o") + name_person2.count("o")
-v_love_count = name_person1.count("v") + name_person2.count("v")
-e_love_count = name_person1.count("e") + name_person2.count("e")
+l_love_count = combined_name.count("l")
+o_love_count = combined_name.count("o")
+v_love_count = combined_name.count("v")
+e_love_count = combined_name.count("e")
 
 true_total_count = t_true_count + r_true_count + u_true_count + e_true_count
 love_total_count = l_love_count + o_love_count + v_love_count + e_love_count
+
 # print("TRUE -----------------")
 # print(t_true_count)
 # print(r_true_count)
