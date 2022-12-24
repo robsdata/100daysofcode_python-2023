@@ -58,15 +58,16 @@ if user_input >= 0 and user_input <= 2:
         print("\nComputer WINS\n")
     elif user_input == 2 and computer_input == 0:
         # if the user selects scissors and computer selects rock
-        print("\nYOU WIN!!!\n")
+        print("\nComputer WINS\n")
     elif user_input == 2 and computer_input == 1:
         # If the user selects scissors and computer selects paper
-        print("\nComputer WINS\n")
+        print("\nYOU WIN\n")
     else:
         print("It's a tie")
 
 else:
     print("Wrong entry!")
+
 
 
 
