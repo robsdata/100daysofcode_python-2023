@@ -1,13 +1,11 @@
 # DAY 4
 
-Randomisation and Python Lists
+For Loops, Range and Code Blocks
 
 ## Projects
 
-1. Heads or Tails
-2. Banker Roulette
-3. Treasure Map
-4. Rock, Paper Scissors
-
-## Map
-![treasure-map](./images/map.png)
+1. Average Height
+2. High Score
+3. Adding Even Numbers
+4. FizzBuzz
+5. Password Generator
