@@ -24,11 +24,11 @@ for _ in range(nr_letters):
     password += letters[letter_selection]
 
 for _ in range(nr_numbers):
-    letter_selection = random.randint(0, (len(numbers)-1)) # Index number selection for letters
+    letter_selection = random.randint(0, (len(numbers)-1)) # Index number selection for numbers
     password += numbers[letter_selection]
 
 for _ in range(nr_symbols):
-    letter_selection = random.randint(0, (len(symbols)-1)) # Index number selection for letters
+    letter_selection = random.randint(0, (len(symbols)-1)) # Index number selection for symbols
     password += symbols[letter_selection]
 
 print(f"Here is your password: {password}")
