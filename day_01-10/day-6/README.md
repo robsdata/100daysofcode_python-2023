@@ -1,7 +1,9 @@
 # DAY 6
 
-Python Functions and Karel
+Python Functions
 
 ## Projects
 
-1. 
+1. Rocket game
+
+![Rocket Game Banner](./images/rocket_game.jpg)
