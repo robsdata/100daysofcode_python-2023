@@ -40,11 +40,11 @@ def finilizing_game(game_result):
 def update_game_map(index_columns, index_row, last_index_columns ,last_index_row):
     
     player = "🤖"
-    fire = "🔥" * 24
+    star = "⭐" * 24
     
     game_map[index_columns][index_row] = player
-    game_map[last_index_columns][last_index_row] = ">>"
-    print(f"{fire}\n{row1}\n{row2}\n{fire}")
+    game_map[last_index_columns][last_index_row] = "  "
+    print(f"{star}\n\n{row1}\n{row2}\n\n{star}")
 
 def game_check(is_game_running, is_inside_columns, is_inside_rows, position_columns, position_rows, user_wins):
     print(f"\nIs inside columns: {is_inside_columns}, and position is ({position_columns}, {position_rows})")
@@ -53,7 +53,7 @@ def game_check(is_game_running, is_inside_columns, is_inside_rows, position_colu
     print(f"User wins = {user_wins}\n")
 
 
-star = "⭐"
+star = "🔥"
 goal = "🏁"
 
 # creating game map
@@ -119,7 +119,7 @@ while  is_game_running == True:
     
     # Wrong Entry
     else:
-        print("Wrong entry")
+        print("\nWrong entry\n")
 
 
 
